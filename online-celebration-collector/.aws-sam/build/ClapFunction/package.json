@@ -1,0 +1,18 @@
+{
+  "name": "clap",
+  "version": "1.0.0",
+  "description": "clap endpoint to store claps",
+  "main": "app.js",
+  "author": "Lawrence Carbon",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha tests/unit/"
+  },
+  "dependencies": {
+    "redis":"^3.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
